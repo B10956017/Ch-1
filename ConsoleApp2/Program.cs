@@ -9,7 +9,7 @@ namespace ConsoleApp2
             double meal_cost = 100;
             int tip_precent = 15;
             int tax_precent = 8;
-            double realtax_precent = (int)tax_precent*0.1;
+            double realtax_precent = (int)tax_precent*0.01;
             int count = 0;
             int total = 0;
             count = (int)((meal_cost + tip_precent) * realtax_precent);
